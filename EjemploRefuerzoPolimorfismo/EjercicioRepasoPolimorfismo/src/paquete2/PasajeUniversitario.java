@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package paquete2;
 
@@ -15,11 +14,7 @@ public class PasajeUniversitario extends PasajeUrbano {
         super(pasaje);
     }
     
-    @Override
-    public void establecerValorPasaje(){
-        valorPasaje = valorFijo - (valorFijo * 0.30);
-    }
-    
+       
     @Override
     public String toString(){
         return String.format("Tipo de pasaje: Universitario\n"
